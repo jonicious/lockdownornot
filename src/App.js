@@ -11,7 +11,7 @@ function App() {
     return (
         <>
             <Countdown date={date} renderer={props => {
-                return <h1>Noch {props.days} Tage {formatNumber(props.hours)}:{formatNumber(props.minutes)}:{formatNumber(props.seconds)}</h1>
+                return <h1>In {props.days} Tagen {formatNumber(props.hours)}:{formatNumber(props.minutes)}:{formatNumber(props.seconds)}</h1>
             }} />
         </>
     );
