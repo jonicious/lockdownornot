@@ -10,9 +10,8 @@ function App() {
 
     return (
         <>
-            <h1>Noch nicht, aber bald! Ab 2.11.20.</h1>
             <Countdown date={date} renderer={props => {
-                return <h2>Noch {props.days} Tage {formatNumber(props.hours)}:{formatNumber(props.minutes)}:{formatNumber(props.seconds)}</h2>
+                return <h1>Noch {props.days} Tage {formatNumber(props.hours)}:{formatNumber(props.minutes)}:{formatNumber(props.seconds)}</h1>
             }} />
         </>
     );
